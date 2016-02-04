@@ -1,6 +1,6 @@
 #! /bin/bash
 #
-# Copyright 2009-2015 The VOTCA Development Team (http://www.votca.org)
+# Copyright 2009-2016 The VOTCA Development Team (http://www.votca.org)
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -73,7 +73,7 @@ Allowed options:
                     Default: ${out%.xvg}_NP.xvg (used trunc of name given by -o)
 		    (where NP is replaced later by the number of the process)
     --log FILE      Name of logfile
-                    Default: ${out%.xvg}_NP.log" (used trunc of name given by -o)
+                    Default: ${out%.xvg}_NP.log (used trunc of name given by -o)
 		    (where NP is replaced later by the number of the process)
     --cmd CMD       Change the gromacs command to run
                     Default: ${g_cmd}
